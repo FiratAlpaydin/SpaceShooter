@@ -35,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/EmptyProject/screens/menuSc.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+              <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
               <folding>
                 <marker date="1514311126051" expanded="true" signature="44:669" ph="{...}" />
                 <marker date="1514311126051" expanded="true" signature="79:667" ph="{...}" />
@@ -197,12 +197,12 @@
       <workItem from="1514118041680" duration="5143000" />
       <workItem from="1514125738557" duration="183000" />
       <workItem from="1514286491025" duration="2524000" />
-      <workItem from="1514311245199" duration="69000" />
+      <workItem from="1514311245199" duration="560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20679000" />
+    <option name="totallyTimeSpent" value="21170000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -220,12 +220,12 @@
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17294118" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17201166" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13802083" sideWeight="0.49502134" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32847425" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847425" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44117647" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -506,7 +506,7 @@
     <entry file="file://$PROJECT_DIR$/EmptyProject/screens/menuSc.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+          <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
           <folding>
             <marker date="1514311126051" expanded="true" signature="44:669" ph="{...}" />
             <marker date="1514311126051" expanded="true" signature="79:667" ph="{...}" />
