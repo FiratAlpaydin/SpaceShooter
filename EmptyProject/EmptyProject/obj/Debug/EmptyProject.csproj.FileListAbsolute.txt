@@ -1,9 +1,0 @@
-/Users/firatalpaydin/RiderProjects/EmptyProject/EmptyProject/bin/Debug/EmptyProject.exe
-/Users/firatalpaydin/RiderProjects/EmptyProject/EmptyProject/bin/Debug/EmptyProject.pdb
-/Users/firatalpaydin/RiderProjects/EmptyProject/EmptyProject/bin/Debug/OpenTK.dll
-/Users/firatalpaydin/RiderProjects/EmptyProject/EmptyProject/bin/Debug/RLNET.dll
-/Users/firatalpaydin/RiderProjects/EmptyProject/EmptyProject/obj/Debug/EmptyProject.csprojResolveAssemblyReference.cache
-/Users/firatalpaydin/RiderProjects/EmptyProject/EmptyProject/obj/Debug/EmptyProject.csproj.CoreCompileInputs.cache
-/Users/firatalpaydin/RiderProjects/EmptyProject/EmptyProject/obj/Debug/EmptyProject.exe
-/Users/firatalpaydin/RiderProjects/EmptyProject/EmptyProject/obj/Debug/EmptyProject.pdb
-/Users/firatalpaydin/RiderProjects/EmptyProject/EmptyProject/bin/Debug/ascii_8x8.png
