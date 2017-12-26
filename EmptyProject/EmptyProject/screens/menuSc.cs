@@ -10,7 +10,7 @@ namespace EmptyProject.screens
 
         public override void Update(object sender, UpdateEventArgs e)
         {
-            
+            a
         }
 
         public override void Render(object sender, UpdateEventArgs e)

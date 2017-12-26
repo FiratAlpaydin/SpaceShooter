@@ -2,6 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -25,14 +27,15 @@ namespace EmptyProject
             settings.BitmapFile = "ascii_8x8.png";
             settings.CharWidth = 8;
             settings.CharHeight = 8;
-            settings.Width = 60;
-            settings.Height = 40;
+            settings.Width = 70;
+            settings.Height = 100;
             settings.Scale = 1f;
             settings.Title = "RLNET Sample";
             settings.WindowBorder = RLWindowBorder.Resizable;
             settings.ResizeType = RLResizeType.ResizeCells;
             settings.StartWindowState = RLWindowState.Normal;
 
+            
             rootConsole = new RLRootConsole(settings);
             sM = new ScreenManager(rootConsole);
             menuSc menu = new menuSc(sM);
