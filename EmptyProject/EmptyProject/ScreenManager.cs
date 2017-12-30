@@ -11,7 +11,7 @@ namespace EmptyProject
         public ScreenManager(RLRootConsole console)
         {
             
-            screenStack = new Stack();
+            screenStack = new Stack();    
             this.console = console;
         }
 

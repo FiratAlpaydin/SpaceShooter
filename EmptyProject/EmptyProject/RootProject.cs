@@ -31,7 +31,7 @@ namespace EmptyProject
             settings.Height = 100;
             settings.Scale = 1f;
             settings.Title = "RLNET Sample";
-            settings.WindowBorder = RLWindowBorder.Resizable;
+            settings.WindowBorder = RLWindowBorder.Hidden;
             settings.ResizeType = RLResizeType.ResizeCells;
             settings.StartWindowState = RLWindowState.Normal;
 

@@ -14,6 +14,7 @@ namespace EmptyProject.screens
         public abstract void Update(object sender,UpdateEventArgs e);
         public abstract void Render(object sender,UpdateEventArgs e);
         public abstract void Play();
+        public abstract void Dispose();
 
     }
     
