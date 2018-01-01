@@ -45,7 +45,7 @@ namespace EmptyProject.screens
                     if (lineCount == 1)
                     {
                         PlaySc playSc = new PlaySc(sM);
-                        sM.setScreen(playSc);
+                        sM.addConsole(playSc);
                         sM.play();
                         Dispose();
                     }else if (lineCount == 2)

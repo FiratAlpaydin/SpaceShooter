@@ -47,9 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Engine.cs" />
+    <Compile Include="Entity\Enemy.cs" />
     <Compile Include="Entity\Entity.cs" />
     <Compile Include="Entity\Player.cs" />
-    <Compile Include="Entity\Weapon\PlayerWeapon.cs" />
+    <Compile Include="Entity\Weapon\Bullet.cs" />
     <Compile Include="RootProject.cs" />
     <Compile Include="ScreenManager.cs" />
     <Compile Include="screens\menuSc.cs" />
