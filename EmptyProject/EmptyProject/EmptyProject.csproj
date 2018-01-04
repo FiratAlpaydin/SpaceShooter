@@ -46,6 +46,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
     <Compile Include="Engine.cs" />
     <Compile Include="Entity\Enemy.cs" />
     <Compile Include="Entity\Entity.cs" />
@@ -53,8 +54,10 @@
     <Compile Include="Entity\Weapon\Bullet.cs" />
     <Compile Include="RootProject.cs" />
     <Compile Include="ScreenManager.cs" />
+    <Compile Include="screens\CreditSc.cs" />
     <Compile Include="screens\menuSc.cs" />
     <Compile Include="screens\PlaySc.cs" />
+    <Compile Include="screens\QuitSc.cs" />
     <Compile Include="screens\screen.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

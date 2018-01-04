@@ -8,10 +8,10 @@ namespace EmptyProject.screens
     public class menuSc : screen
     {
         private const string PLAY = "PLAY";
-        private const string OPTIONS = "OPTIONS";
+        private const string CREDIT = "CREDITS";
         private const string QUIT = "QUIT";
         private const string sPLAY = ">PLAY<";
-        private const string sOPTIONS = ">OPTIONS<";
+        private const string sCREDIT = ">CREDITS<";
         private const string sQUIT = ">QUIT<";
         //private readonly string[] BUTTONS = {PLAY, OPTIONS, QUIT};
         //private readonly string[] sBUTTONS = {sPLAY, sOPTIONS, sQUIT};
@@ -50,10 +50,16 @@ namespace EmptyProject.screens
                         Dispose();
                     }else if (lineCount == 2)
                     {
+                        CreditSc creditSc = new CreditSc(sM);
+                        sM.addConsole(creditSc);
+                        sM.play();
+                        Dispose();
+                        
+                    
                         
                     }else if (lineCount == 3)
                     {
-                        
+                        sM.console.Close();
                     }                    
                 }
             }
@@ -98,11 +104,11 @@ namespace EmptyProject.screens
             
             if (lineCount == 2)
             {
-                sM.console.Print((sM.console.Width / 2) - (sOPTIONS.Length / 2), sM.console.Height / 2 - 10, sOPTIONS,RLColor.White);
+                sM.console.Print((sM.console.Width / 2) - (sCREDIT.Length / 2), sM.console.Height / 2 - 10, sCREDIT,RLColor.White);
             }
             else
             {
-                sM.console.Print((sM.console.Width/2)-(OPTIONS.Length/2), sM.console.Height / 2-10, OPTIONS,RLColor.White);
+                sM.console.Print((sM.console.Width/2)-(CREDIT.Length/2), sM.console.Height / 2-10, CREDIT,RLColor.White);
             }
             
             if (lineCount == 3)

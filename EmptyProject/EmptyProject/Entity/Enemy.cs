@@ -12,6 +12,7 @@ namespace EmptyProject.Entity
             large
         }
 
+        public bool live = true;
         private types type;
         public Enemy(int health,int type,Vector2 position) : base(health)
         {
@@ -21,16 +22,26 @@ namespace EmptyProject.Entity
 
         public void enemyDraw(RLRootConsole console)
         {
-            if (type == types.small)
+            if (live)
             {
-                console.Print((int) position.X, (int) position.Y, "V", RLColor.White);
-            }else if (type == types.medium)
-            {
-                console.Print((int) position.X, (int) position.Y, "O", RLColor.White);
-            }else if (type == types.large)
-            {
-                console.Print((int) position.X, (int) position.Y, "H", RLColor.White);
+                if (type == types.small)
+                {
+                    console.Print((int) position.X, (int) position.Y, "V", RLColor.White);
+                }
+                else if (type == types.medium)
+                {
+                    console.Print((int) position.X, (int) position.Y, "O", RLColor.White);
+                }
+                else if (type == types.large)
+                {
+                    console.Print((int) position.X, (int) position.Y, "H", RLColor.White);
+                }
             }
+            else
+            {
+                position = new Vector2(1000,1000);
+            }
+            
         }
         
     }

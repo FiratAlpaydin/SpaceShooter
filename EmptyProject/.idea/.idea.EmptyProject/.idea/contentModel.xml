@@ -5,6 +5,7 @@
       <e p="EmptyProject" t="IncludeRecursive">
         <e p="ascii_8x8.png" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Class1.cs" t="Include" />
         <e p="EmptyProject.csproj" t="IncludeRecursive" />
         <e p="Engine.cs" t="Include" />
         <e p="Entity" t="Include">
@@ -19,8 +20,10 @@
         <e p="RootProject.cs" t="Include" />
         <e p="ScreenManager.cs" t="Include" />
         <e p="screens" t="Include">
+          <e p="CreditSc.cs" t="Include" />
           <e p="menuSc.cs" t="Include" />
           <e p="PlaySc.cs" t="Include" />
+          <e p="QuitSc.cs" t="Include" />
           <e p="screen.cs" t="Include" />
         </e>
       </e>

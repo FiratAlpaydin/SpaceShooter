@@ -15,10 +15,7 @@ namespace EmptyProject
     
     class RootProject
     {
-        private static int playerX = 25;
-        private static int playerY = 25;
         private static RLRootConsole rootConsole;
-        private static int color;
         private static ScreenManager sM;
 
         public static void Main()

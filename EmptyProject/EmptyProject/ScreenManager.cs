@@ -8,6 +8,7 @@ namespace EmptyProject
     {
         public RLRootConsole console;
         private Stack screenStack;
+        
         public ScreenManager(RLRootConsole console)
         {
             
